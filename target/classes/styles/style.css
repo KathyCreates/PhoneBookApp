@@ -1,0 +1,42 @@
+/* Загальні стилі для всього інтерфейсу */
+.root {
+    -fx-font-family: "Arial";
+    -fx-background-color: #f9f9f9;
+    -fx-padding: 10;
+}
+
+/* Список контактів */
+.list-view {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #cccccc;
+    -fx-border-radius: 5;
+    -fx-padding: 5;
+    -fx-font-size: 14px;
+}
+
+/* Стилі для кнопок */
+.button {
+    -fx-background-color: linear-gradient(to bottom, #4CAF50, #388E3C);
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-padding: 8 20;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+}
+
+.button:hover {
+    -fx-background-color: #45A049;
+}
+
+.button:pressed {
+    -fx-background-color: #357A38;
+}
+
+/* Поле вводу для пошуку */
+.text-field {
+    -fx-font-size: 14px;
+    -fx-padding: 5;
+    -fx-border-color: #cccccc;
+    -fx-border-radius: 5;
+}
